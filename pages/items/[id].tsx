@@ -4,7 +4,7 @@ export default function ItemDetail() {
       <div className=" mb-8">
         <div className="h-96 bg-slate-300" />
         <div className="flex cursor-pointer items-center space-x-3 border-t border-b py-3">
-          <div className="h-12 w-12 rounded-full  bg-slate-300 " />
+          <div className="h-10 w-10 rounded-full  bg-slate-300 " />
           <div>
             <p className="text-sm font-medium text-gray-700">Steve Jebs</p>
             <p className="text-xs font-medium text-gray-500">
