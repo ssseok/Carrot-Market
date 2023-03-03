@@ -1,4 +1,6 @@
-export default function CommunityPostDetail() {
+import type { NextPage } from "next";
+
+const CommunityPostDetail: NextPage = () => {
   return (
     <div>
       <span className="my-3 ml-4 inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800">
@@ -81,4 +83,6 @@ export default function CommunityPostDetail() {
       </div>
     </div>
   );
-}
+};
+
+export default CommunityPostDetail;

@@ -1,4 +1,6 @@
-export default function Community() {
+import type { NextPage } from "next";
+
+const Community: NextPage = () => {
   return (
     <div className="space-y-8 py-16 px-4">
       {[...Array(7)].map((_, i) => (
@@ -70,4 +72,6 @@ export default function Community() {
       </button>
     </div>
   );
-}
+};
+
+export default Community;

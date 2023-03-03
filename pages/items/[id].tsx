@@ -1,4 +1,6 @@
-export default function ItemDetail() {
+import type { NextPage } from "next";
+
+const ItemDetail: NextPage = () => {
   return (
     <div className="px-4 py-10">
       <div className=" mb-8">
@@ -63,4 +65,6 @@ export default function ItemDetail() {
       </div>
     </div>
   );
-}
+};
+
+export default ItemDetail;
