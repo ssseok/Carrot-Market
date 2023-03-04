@@ -1,14 +1,12 @@
 import { useState } from "react";
 import type { NextPage } from "next";
+import { cls } from "@/libs/utils";
 
 const Enter: NextPage = () => {
   const [method, setMethod] = useState<"email" | "phone">("email");
   const onEmailClick = () => setMethod("email");
   const onPhoneClick = () => setMethod("phone");
 
-  function cls(...classnames: string[]) {
-    return classnames.join(" ");
-  }
   return (
     <div className="mt-16 px-4">
       <h3 className="text-center text-3xl font-bold">Enter to Carrot</h3>
