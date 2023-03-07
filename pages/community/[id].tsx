@@ -1,3 +1,4 @@
+import Button from "@/components/button";
 import Layout from "@/components/layout";
 import TextArea from "@/components/textarea";
 import type { NextPage } from "next";
@@ -80,9 +81,7 @@ const CommunityPostDetail: NextPage = () => {
             placeholder="Answer this question!"
             required
           />
-          <button className="mt-2 w-full rounded-md border border-transparent bg-orange-500 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 ">
-            Reply
-          </button>
+          <Button text="Reply" />
         </div>
       </div>
     </Layout>
